@@ -6,7 +6,7 @@ from typing import Dict, Tuple, Any, Optional, List
 
 import grpc
 from kuksa_client.grpc.aio import VSSClient, Datapoint
-from kuksa.val.v2 import val_pb2_grpc as vgrpc, val_pb2 as vpb, types_pb2 as tpb
+from kuksa.val.v1 import val_pb2_grpc as vgrpc, val_pb2 as vpb, types_pb2 as tpb
 
 # ----------------------
 # Config
